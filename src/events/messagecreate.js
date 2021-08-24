@@ -1,7 +1,5 @@
 import fetch from "node-fetch";
 import { MessageEmbed } from 'discord.js';
-import pkg from 'quick.db';
-const { table } = pkg;
 
 const prefix = '*';
 const escapeRegex = str => str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');

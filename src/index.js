@@ -1,6 +1,6 @@
 import { createRequire } from "module";
 const require = createRequire(import.meta.url)
-
+const token = "*"
 import { dirname } from 'path';
 import { fileURLToPath } from 'url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -35,6 +35,4 @@ const fs = require('fs');
 	}
 })();
 
-require('dotenv').config()
-client.login(process.env['Token']);
-//client.login("NzM2NTQ3Mjc5MzIxNjk0MjA5.XxwZGw.Stt7KtLeVdly8O4evE45YfHHz_o");
+client.login('ODQ2MTI4MDY4NjA2NDI3MjI4.YKrAKw.a_BN303zx2MEmIcUUR2Q6cwUtmk')

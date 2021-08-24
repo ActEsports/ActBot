@@ -1,8 +1,30 @@
 {
   "dependencies": {
     "discord.js": "^13.1.0",
+    "discord.js-ghost-ping": "^2.0.3",
     "fs": "^0.0.1-security",
     "node-fetch": "^2.6.1",
     "path": "^0.12.7"
-  }
+  },
+  "name": "act",
+  "version": "1.0.0",
+  "description": "Custom bot for act",
+  "type": "module",
+  "engines": {
+    "node": "16.6"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ActEsports/ActBot.git"
+  },
+  "author": "Mathusan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ActEsports/ActBot/issues"
+  },
+  "homepage": "https://github.com/ActEsports/ActBot#readme"
 }
