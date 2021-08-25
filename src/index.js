@@ -35,4 +35,4 @@ const fs = require('fs');
 	}
 })();
 
-client.login('ODQ2MTI4MDY4NjA2NDI3MjI4.YKrAKw.a_BN303zx2MEmIcUUR2Q6cwUtmk')
+client.login(process.env['Token']);
