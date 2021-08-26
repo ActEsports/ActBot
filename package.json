@@ -3,11 +3,12 @@
     "discord.js": "^13.1.0",
     "discord.js-ghost-ping": "^2.0.3",
     "fs": "^0.0.1-security",
+    "got": "^11.8.2",
     "node-fetch": "^2.6.1",
     "path": "^0.12.7"
   },
   "name": "act",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Custom bot for act",
   "type": "module",
   "engines": {

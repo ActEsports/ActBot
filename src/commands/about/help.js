@@ -13,6 +13,7 @@ export const execute = (message, args) => {
         .addFields(
             { name: 'info', value: '*help info', inline: true, },
             { name: 'Pickers', value: '*help pickers', inline: true, },
+            { name: 'reddit', value: '*help reddit', inline: true },
         );
 
     const pickers = new MessageEmbed()
@@ -25,13 +26,22 @@ export const execute = (message, args) => {
 
 
     const info = new MessageEmbed()
-        .setTitle('Here are the moderation commands.')
+        .setTitle('Here are infomation commands.')
         .setColor('RANDOM')
         .addFields(
             { name: 'about', value: 'Gives info about the bot', inline: true, },
             { name: 'help', value: 'Basically this command)', inline: true },
 
         );
+    const reddit = new MessageEmbed()
+        .setTitle('Here are the reddit commands.')
+        .setColor('RANDOM')
+        .addFields(
+            { name: 'meme', value: 'Meme command from r/reddit', inline: true, },
+            { name: 'food', value: 'Food command from r/food', inline: true },
+
+        );
+
 
     if (!args[0]) { return message.channel.send({ embeds: [help] }); }
 
@@ -40,6 +50,10 @@ export const execute = (message, args) => {
     }
     else if (args[0] == 'info') {
         return message.channel.send({ embeds: [info] });
+
+    }
+    else if (args[0] == 'reddit') {
+        return message.channel.send({ embeds: [reddit] });
 
     }
 }

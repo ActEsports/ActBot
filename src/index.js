@@ -35,4 +35,5 @@ const fs = require('fs');
 	}
 })();
 
-client.login(process.env['Token']);
+//client.login(process.env['Token']);
+client.login('ODQ2MTI4MDY4NjA2NDI3MjI4.YKrAKw.xWiEbB0ScKkb6x-Hf7oX8qqNO9o')
