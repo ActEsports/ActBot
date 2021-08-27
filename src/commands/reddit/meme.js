@@ -15,7 +15,7 @@ export const execute = (message) => {
 			.setURL(`https://reddit.com${content[0].data.children[0].data.permalink}`)
 			.setColor('RANDOM')
 			.setImage(`${content[0].data.children[0].data.url}`)
-			.setFooter(`👍 ${content[0].data.children[0].data.ups} 👎 ${content[0].data.children[0].data.comments}`);
+			.setFooter(`👍 ${content[0].data.children[0].data.ups} 💬 ${content[0].data.children[0].data.num_comments}`);
 
 		message.channel.send({ embeds: [embed] });
 
