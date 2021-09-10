@@ -36,4 +36,3 @@ const fs = require('fs');
 })();
 
 client.login(process.env['Token']);
-

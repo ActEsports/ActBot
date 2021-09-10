@@ -41,6 +41,13 @@ export const execute = (message, args) => {
             { name: 'food', value: 'Food command from r/food', inline: true },
 
         );
+    const actions = new MessageEmbed()
+        .setTitle('Here are the action commands.')
+        .setColor('RANDOM')
+        .addFields(
+            { name: 'frag', value: 'Throw a frag grenade at a user!', inline: true, },
+
+        );
 
 
     if (!args[0]) { return message.channel.send({ embeds: [help] }); }
@@ -55,5 +62,8 @@ export const execute = (message, args) => {
     else if (args[0] == 'reddit') {
         return message.channel.send({ embeds: [reddit] });
 
+    }
+    else if (args[0] == 'actions') {
+        return message.channel.send({embeds: [actions] });
     }
 }

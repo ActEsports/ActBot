@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "anime-actions": "^1.0.6",
     "discord.js": "^13.1.0",
     "fs": "^0.0.1-security",
     "got": "^11.8.2",
