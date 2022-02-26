@@ -8,7 +8,7 @@ export const execute = (message, args) => {
 
     const help = new MessageEmbed()
         .setTitle('Our commands')
-        .setFooter('Pick a category then do *help <category>')
+        .setFooter({ text: 'Pick a category then do *help <category>' })
         .setColor('RANDOM')
         .addFields(
             { name: 'info', value: '*help info', inline: true, },

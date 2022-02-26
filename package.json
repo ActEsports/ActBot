@@ -1,7 +1,8 @@
 {
   "dependencies": {
     "anime-actions": "^1.0.6",
-    "discord.js": "^13.1.0",
+    "discord-api-types": "^0.27.3",
+    "discord.js": "^13.6.0",
     "fs": "^0.0.1-security",
     "got": "^11.8.2",
     "node-fetch": "^2.6.2",
@@ -12,7 +13,7 @@
   "description": "Custom bot for act",
   "type": "module",
   "engines": {
-    "node": "16.6"
+    "node": "17.x"
   },
   "main": "src/index.js",
   "scripts": {

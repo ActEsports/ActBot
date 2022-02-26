@@ -17,7 +17,7 @@ export const execute = (message, args, prefix, client) => {
 			{ name: `**Developers:**`, value: `**[Bagel#1475](https://github.com/bagelwastaken)`, inline: true },
 			{ name: `**Uptime:**`, value: `${uptime}`, inline: true },
 		)
-		.setFooter(`Do '${prefix}help' to get started`);
+		.setFooter({ text:`Do '${prefix}help' to get started` });
 
 	message.channel.send({ embeds: [embed] });
 
