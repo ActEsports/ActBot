@@ -4,7 +4,7 @@
     "discord-api-types": "^0.27.3",
     "discord.js": "^13.6.0",
     "fs": "^0.0.1-security",
-    "got": "^11.8.2",
+    "got": "^11.8.5",
     "node-fetch": "^2.6.2",
     "path": "^0.12.7"
   },
